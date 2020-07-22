@@ -1,0 +1,157 @@
+/*  Responsiveness Queries  */
+
+
+
+/*  Tablets */
+@media (max-width: 1050px){
+    
+        .covidText{
+        margin-right: 60px;
+    }
+
+    .parallax-top{
+        height: 300px;
+    }
+    
+    .service{
+        width: 240px;
+        height: 360px;
+        margin-top: 50px;
+    }
+    
+    .serviceImg{
+        width: 240px;
+        height: 180px;
+    }
+    
+    .serviceName{
+        color: darkgoldenrod;
+        font-family: 'Girassol';
+        font-size: 20px;
+    }
+    
+    .serviceDesc{
+        text-align: left;
+        color: white;
+        margin: 20px;
+        font-size: 16px;
+    }
+    
+    .aboutDiv{
+        margin: 0px;
+        padding-top: 0px;
+    }
+
+    .aboutText{
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+        margin: 20px;
+        text-align: left;
+        padding-top: 90px;
+    }
+
+    .aboutImg{
+        display: inline-block;
+        width: 50%;
+        margin-top: 50px;
+    }
+    
+}
+
+/*  Phones  */
+@media (max-width: 650px){
+    
+    .covidText{
+        margin-right: 60px;
+    }
+    
+    .parallax-top{
+        height: 200px;
+    }
+    
+    .service{
+        width: 400px;
+        height: 600px;
+        margin-top: 50px;
+    }
+    
+    .serviceImg{
+        width: 400px;
+        height: 300px;
+    }
+    
+    .serviceName{
+        color: darkgoldenrod;
+        font-family: 'Girassol';
+        font-size: 32px;
+    }
+    
+    .serviceDesc{
+        text-align: left;
+        color: white;
+        margin: 40px;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    
+    .aboutDiv{
+        margin: 0px;
+        margin: 0px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .aboutText{
+        display: block;
+        width: 90%;
+        vertical-align: top;
+        margin: 20px;
+        text-align: left;
+            padding-top: 0px;
+            padding-top: 0px;
+    }
+
+    .aboutImg{
+        display: block;
+        width: 80%;
+        margin: 40px;
+    }
+
+    .accountSection{
+        position: relative;
+        max-width: 80%;
+        padding: 50px;
+        background-color: black;
+        color: white;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .accountHeader{
+        color: darkgoldenrod;
+        font-family: 'Girassol';    
+    }
+
+    .loginDiv{
+        display: block;
+    }
+
+    .registerDiv{
+        display: none;
+    }
+
+    
+    
+    textbox{
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    .formButton{
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    
+}
